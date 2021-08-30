@@ -52,5 +52,7 @@ https://www.linkedin.com/in/sagar-suri/
 
 
 ## Screenshots
-![Kalyan__1](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-08-18-692_com.tasktwo.kishan.tasktwo.jpg)
-![Kalyan__2](https://github.com/Kalyanb447-github/kalyan_movie_app/blob/main/screenshots/2.png)
+![kishan](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-08-18-692_com.tasktwo.kishan.tasktwo.jpg)
+![kishan](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-10-12-050_com.tasktwo.kishan.tasktwo.jpg)
+![kishan](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-10-18-574_com.tasktwo.kishan.tasktwo.jpg)
+
