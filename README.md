@@ -15,13 +15,10 @@ Here is a quick video of the app:
 - Dependency Injection
 - Dio Interceptors  to handle request and response
 
-
-
-
-
 # Features added:
 
-1) Search User List
+1) Search Functionalily - User List
+2) Running tow diffrent flavour within one project
 2) Hero Animation
 
 
@@ -29,8 +26,6 @@ Here is a quick video of the app:
 
 sbittu348@gmail.com
 
-LinkedIn profile: 
-https://www.linkedin.com/in/sagar-suri/
 
 
 ## Screenshots
