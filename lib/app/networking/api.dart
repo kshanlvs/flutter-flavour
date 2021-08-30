@@ -3,11 +3,10 @@ import 'package:dio/native_imp.dart';
 import 'package:tasktwo/app/networking/interceptor.dart';
 
 class Api extends DioForNative {
-  // var storage = Hive.box('storage');
   Api() {
-    ;
+    
     options.baseUrl =
-        "https://jsonplaceholder.typicode.com"; // options.connectTimeout = 5000;
+        "https://jsonplaceholder.typicode.com"; 
 
     options.connectTimeout = 15000 * 60;
     options.receiveTimeout = 15000 * 60;
