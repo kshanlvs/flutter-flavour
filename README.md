@@ -5,7 +5,6 @@ Inside main.dart file there is a bool variable  isDev which is set false and if 
 
 For the development flavour the color of the app bar is orange and for the production mode the color for the app bar is grey
 
-Here is a quick video of the app:
 
 
  I have used GetX architecture and GetX state management for managing state of the widget.
