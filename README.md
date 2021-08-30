@@ -36,9 +36,10 @@ https://www.linkedin.com/in/sagar-suri/
 ## Screenshots
 Flavour(Target 1) - Development Flavour
 ![kishan](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-08-18-692_com.tasktwo.kishan.tasktwo.jpg)
+<img src="https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-10-12-050_com.tasktwo.kishan.tasktwo.jpg" width="200" />
 
 Flavour(Target -2) - Production Flavour
-![kishan]( <img style="height:200;width:100">https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-10-12-050_com.tasktwo.kishan.tasktwo.jpg</img>)
+
 
 User Detail Page
 ![kishan](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-10-18-574_com.tasktwo.kishan.tasktwo.jpg)
