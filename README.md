@@ -38,7 +38,7 @@ Flavour(Target 1) - Development Flavour
 ![kishan](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-08-18-692_com.tasktwo.kishan.tasktwo.jpg)
 
 Flavour(Target -2) - Production Flavour
-![kishan](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-10-12-050_com.tasktwo.kishan.tasktwo.jpg)
+![kishan]( <img style="height:200;width:100">https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-10-12-050_com.tasktwo.kishan.tasktwo.jpg</img>)
 
 User Detail Page
 ![kishan](https://github.com/kshanlvs/flutter-flavour/blob/main/screenshots/Screenshot_2021-08-30-19-10-18-574_com.tasktwo.kishan.tasktwo.jpg)
