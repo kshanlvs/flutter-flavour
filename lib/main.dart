@@ -6,7 +6,7 @@ import 'package:tasktwo/app/theme.dart';
 import 'package:tasktwo/resources/app_config.dart';
 
 void main() {
-  const bool isDev = false;
+  const bool isDev = true;
   var configuredApp;
   if (isDev == true) {
     configuredApp = AppConfig(

@@ -18,6 +18,7 @@ For the development flavour the color of the app bar is orange and for the produ
 
 1) Search Functionalily - User List
 2) Running tow diffrent flavour within one project
+3) Internet Connectivity -- if there is no internet then the user will be redirected to no  inter page and if internet is available the user automaticall redirects to previous page.
 2) Hero Animation
 
 
