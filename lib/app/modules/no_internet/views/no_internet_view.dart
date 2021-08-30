@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -6,8 +7,12 @@ import '../controllers/no_internet_controller.dart';
 
 class NoInternetView extends GetView<NoInternetController> {
   Future<bool> onWillPop(){
+   
     return Future.value(false);
   }
+
+
+  
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
@@ -26,3 +31,14 @@ class NoInternetView extends GetView<NoInternetController> {
     );
   }
 }
+
+
+AlertDialog alert = AlertDialog(
+    title: Text("My title"),
+    content: Text("This is my message."),
+    actions: [
+      Text("ok"),
+    ],
+  );
+
+  // show the dialog

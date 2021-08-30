@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:tasktwo/app/data/models/user_model.dart';
 import 'package:tasktwo/app/modules/user_detail/controllers/user_detail_controller.dart';
-import 'package:tasktwo/app/routes/app_pages.dart';
 import 'package:tasktwo/resources/app_config.dart';
 
 import '../controllers/home_controller.dart';
@@ -77,11 +76,17 @@ class HomeView extends GetView<HomeController> {
       body: Center(
         child: Obx(
           () {
+            
             if (controller.loading.value) {
               return Center(
                 child: CircularProgressIndicator(),
               );
             } else {
+
+              if(controller.userListForView.isEmpty){
+                return Center(child: Text("No Data found"));
+              }
+              else
               return SingleChildScrollView(
                 child: Container(
                   color: Colors.white,
@@ -114,6 +119,7 @@ class HomeView extends GetView<HomeController> {
                               color: Colors.amber,
                             ),
                             title: Text('${singleUser.name}'),
+                            subtitle: Text(singleUser.email.toString()),
                           ),
                         );
                       },
