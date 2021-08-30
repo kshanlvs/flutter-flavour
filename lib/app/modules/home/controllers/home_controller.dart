@@ -110,7 +110,7 @@ class HomeController extends GetxController {
   }
 
    getToNoInterNetPage()  {
-     Get.offAllNamed(Routes.NO_INTERNET);
+     Get.offNamed(Routes.NO_INTERNET);
   }
 
    goToPreviousPaget() {

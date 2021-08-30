@@ -18,7 +18,8 @@ class NoInternetView extends GetView<NoInternetController> {
           children: [
             AspectRatio(aspectRatio: 1,child: Image.asset("assets/images/no_internet.jpg"),),
     
-            Text("No Internet Connection!!",style: TextStyle(fontWeight: FontWeight.bold),)
+            Text("No Internet Connection!!",style: TextStyle(fontWeight: FontWeight.bold),),
+            Image.asset("assets/images/loading.gif",height: 100,width: 100,)
           ],
         )
       ),
