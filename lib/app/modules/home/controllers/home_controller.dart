@@ -1,13 +1,14 @@
 import 'package:get/get.dart';
 import 'package:tasktwo/app/data/models/user_model.dart';
 import 'package:tasktwo/app/data/repository/user_repository.dart';
-import 'package:tasktwo/app/modules/user_detail/controllers/user_detail_controller.dart';
 
 class HomeController extends GetxController {
   RxList<UserModel>? listOfUser = <UserModel>[].obs;
   List<UserModel> tempListOfUser = <UserModel>[].obs;
   RxList<UserModel> userListForView = <UserModel>[].obs;
   RxBool loading = false.obs;
+
+  // get  user data 
   getUser() async {
     try {
       loading.value = true;
@@ -23,6 +24,8 @@ class HomeController extends GetxController {
     }
   }
 
+
+  // search the user from the user list 
   searchUser(value) {
     List<UserModel> dublicate = [];
     dublicate = listOfUser!;
@@ -56,7 +59,6 @@ class HomeController extends GetxController {
 
   @override
   void onClose() {
-    HomeController().dispose();
-    UserDetailController().dispose();
+    
   }
 }
