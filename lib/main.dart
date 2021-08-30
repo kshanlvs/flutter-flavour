@@ -17,7 +17,7 @@ void main() {
     );
   } else {
     configuredApp = AppConfig(
-      appTitle: "Flutter flavour (target 2)",
+      appTitle: "Flutter flavour Production (target 2)",
       buildFlavour: "Production",
       themeData: getThemedata("production"),
       child: MyApp(),
